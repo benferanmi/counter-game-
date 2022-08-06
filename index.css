@@ -70,6 +70,17 @@ button {
     body {
         width: 100%;
         background:linear-gradient(0deg, red, blue);
-        
+
+    }
+    .counter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .scores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
