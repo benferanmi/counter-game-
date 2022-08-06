@@ -1,0 +1,67 @@
+body {
+    background: url(./cute.jpg);
+}
+
+.ben__head {
+    text-align: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ben__subhead {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.counter__1, .counter__2 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 2px gold;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.counter__1 button, .counter__2 button {
+    border: none;
+    background-color: unset;
+    color: white;
+    padding: none;
+    height: 50px;
+    width: 90px;
+    border-radius: 48px;
+    margin: none;
+    position: absolute;
+}
+
+#saveone, #savetwo {
+    color: gold;
+    position: absolute;
+    top: 5px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    background-color: gold;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}

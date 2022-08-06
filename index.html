@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <title>Benjamin counter app</title>
+    </head>
+    <body>
+       <h1 class="ben__head">Welcome to benjamin counter game</h1>
+       
+       <div class="ben__subhead">Test the speed of your hands</div>
+
+       <div class="counter">
+        <div class="counter__1">
+            <p id="saveone">0</p>
+        <button id="btn-1" onclick="buttonone()">Right hand</button>
+        </div>
+        <div class="counter__2">
+            <p id="savetwo">0</p>
+        <button id="btn-2" onclick="buttontwo()">Left hand</button>
+        </div>
+
+       </div>
+
+       <div class="score">
+        <div class="score__1"><p id="scoresright">scores: </p>
+            <button onclick="save()">save</button>
+            <button onclick="reset()">reset Count</button>
+            <button onclick="resetscore()">reset score</button>
+        </div>
+        <div class="score__2">
+            <p id="scoresleft">scores: </p>
+           <button onclick="saveleft()">save</button>
+           <button onclick="reset()">reset Count</button>
+           <button onclick="resetscore()">reset score</button>
+           </div>
+       </div>
+       
+       <script src="./index.js"></script>
+    </body>
+</html>
