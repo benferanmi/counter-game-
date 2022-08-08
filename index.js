@@ -19,9 +19,10 @@ function reset() {
     count = 0
     saveOne.innerText = count
 }
-function reset() {
+function resetleft() {
     count = 0
     saveTwo.innerText = count
+    console.log(saveTwo.innerText)
 }
 
 
@@ -29,7 +30,7 @@ let textt = 'Scores:' + "-"
 function resetscore() {
     scoresRightHand.innerText = textt
 }
-function resetscore() {
+function resetscoreleft() {
     scoresLeftHand.innerText = textt
 }
 

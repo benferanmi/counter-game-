@@ -21,10 +21,20 @@ function reset() {
   saveOne.innerText = count;
 }
 
+function resetleft() {
+  count = 0;
+  saveTwo.innerText = count;
+  console.log(saveTwo.innerText);
+}
+
 var textt = 'Scores:' + "-";
 
 function resetscore() {
   scoresRightHand.innerText = textt;
+}
+
+function resetscoreleft() {
+  scoresLeftHand.innerText = textt;
 }
 
 function save() {
